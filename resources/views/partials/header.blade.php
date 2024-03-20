@@ -4,7 +4,7 @@
         <div class="container">
 
             {{-- navbar logo --}}
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Trains Travel</a>
 
             {{-- responsive menu handler --}}
             <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
@@ -19,7 +19,7 @@
                         <a aria-current="page" class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Trains</a>
                     </li>
                 </ul>
             </div>

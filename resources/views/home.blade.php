@@ -4,7 +4,7 @@
 
 @section('main-content')
     <section>
-        <div class="container py-4">
+        <div class="container-fluid py-4">
             <h1 class="text-center text-warning text-uppercase mb-5">Laravel Trains</h1>
             <table class="table">
                 <thead>
@@ -15,6 +15,7 @@
                         <th class="text-uppercase">departure hours</th>
                         <th class="text-uppercase">arrival hours</th>
                         <th class="text-uppercase">train code</th>
+                        <th class="text-uppercase">number of sits</th>
                         <th class="text-uppercase">number of carriages</th>
                         <th class="text-uppercase">is late</th>
                         <th class="text-uppercase">is canceled</th>
@@ -30,6 +31,7 @@
                             <td>{{ $train->departure_hours }}</td>
                             <td>{{ $train->arrival_hours }}</td>
                             <td>{{ $train->train_code }}</td>
+                            <td>{{ $train->n_sits }}</td>
                             <td>{{ $train->n_carriages }}</td>
                             <td>{{ $train->is_late ? 'Yes' : 'No' }}</td>
                             <td>{{ $train->is_canceled ? 'Yes' : 'No' }}</td>
