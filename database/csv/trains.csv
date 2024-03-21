@@ -1,0 +1,2 @@
+company,departure_station,arrival_station,departure_hours,arrival_hours,train_code,n_carriages,is_late,is_canceled,n_sits
+Trenitalia,Roma,Napoli,2024-03-21 00:00:00,2024-03-21 02:00:00,4234a,40,1,0,50 
