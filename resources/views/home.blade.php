@@ -37,8 +37,9 @@
                             <td>{{ $train->is_canceled ? 'Yes' : 'No' }}</td>
                         </tr>
                     @empty
-                        <tr colspan="9">
-                            <td class="text-danger text-uppercase">No trains founded, please retry!</td>
+                        <tr>
+                            <td colspan="100%" class="text-danger text-uppercase text-center">No trains founded, please
+                                retry!</td>
                         </tr>
                     @endforelse
                 </tbody>

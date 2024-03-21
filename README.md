@@ -46,3 +46,5 @@ If you want to run this code you have to:
         create db 'laravel_migration_seeder'
         php artisan migrate
     ```
+
+    
