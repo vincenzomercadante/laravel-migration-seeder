@@ -38,7 +38,11 @@ If you want to run this code you have to:
     - BACK END
 
     ```
+        open mamp
         composer i
         php artisan key:generate
         php artisan serve
+        open phpmyadmin
+        create db 'laravel_migration_seeder'
+        php artisan migrate
     ```
